@@ -1,22 +1,25 @@
+# Changes
+
 Version 5.6.4 - 2021-04-21
+
 - Implement go linting (golangci)
 - Fix port issue
 - Fix ownership, permissions and paths (Unraid compliance)
 
-
 Version 5.6.3 - 2019-10-26
+
 - Switch to yarn
 - Remove vscode settings
 
-
 Version 5.6.1 - 2019-10-26
+
 - Add missing isNumber function
 - Support 6.8.x
 - Bump github.com/mattn/go-colorable from 0.1.2 to 0.1.4 in /server
 - Bump github.com/mattn/go-isatty from 0.0.9 to 0.0.10 in /server
 
-
 Version 5.6.0 - 2019-09-07
+
 - Add elapsed time to transfer screen
 - Fix unbalance logo container bg color
 - Add contrast to drop down in history screen
@@ -43,8 +46,8 @@ Version 5.6.0 - 2019-09-07
 - Fix npm audit issues
 - Fix npm audit issues
 
-
 Version 5.5.0 - 2019-02-12
+
 - Implement Go Modules
 - Allow ReservedAmount/ReservedUnit to be saved to disk
 - Add error 13 as flagged command
@@ -52,13 +55,13 @@ Version 5.5.0 - 2019-02-12
 - Fix client reported findings
 - Fix golintci issues
 
-
 Version 5.4.0 - 2018-09-18
+
 - Remove client/dist folder
 - Create app folder
 
-
 Version 5.3.0 - 2018-09-18
+
 - Modify logic to determine listening protocol
 - Implement parcel-bundler
 - Remove $GOPATH from stack trace
@@ -66,23 +69,23 @@ Version 5.3.0 - 2018-09-18
 - Change unraid logo
 - Round seconds to prevent precision issues
 
-
 Version 5.2.1 - 2018-06-05
+
 - Fix planning stage's calculation of space
 - Fix wrong command icon in history screen
 
-
 Version 5.2.0 - 2018-05-12
+
 - Fix ssl cert detection
 - Allow customization of UI refresh rate
 
-
 Version 5.1.1 - 2018-05-11
+
 - Fix planner issues
 - Add debug logging
 
-
 Version 5.1.0 - 2018-05-09
+
 - Fix ssl handling
 - Implement block-based space planning
 - Use SI's digital units
@@ -92,8 +95,8 @@ Version 5.1.0 - 2018-05-09
 - Fix command in progress icon
 - Improve logging
 
-
 Version 5.0.0 - 2018-02-27
+
 - Future proof date based version
 - Enable https support
 - Fix ssl handling
@@ -106,12 +109,12 @@ Version 5.0.0 - 2018-02-27
 - Update docs
 - Use date-based version
 
-
 Version 4.0.2 - 2018-01-12
+
 - Revert date base plugin version
 
-
 Version 4.0.1 - 2018-01-11
+
 - Remove presence check
 - Add test data
 - Replace go websocket with gorilla websocket
@@ -119,8 +122,8 @@ Version 4.0.1 - 2018-01-11
 - Fix plugin install script
 - Add date based plugin version
 
-
 Version 4.0.0 - 2017-12-05
+
 - Fix space calculation logic
 - Migrate gom to dep
 - Create new domain package
@@ -242,8 +245,8 @@ Version 4.0.0 - 2017-12-05
 - Relocate scatter validate invocation
 - Use vscode instead of atom
 
-
 Version 3.3.3 - 2017-09-12
+
 - Remove parent folder if empty
 - Replace yarn with npm5
 - Remove logging
@@ -254,19 +257,19 @@ Version 3.3.3 - 2017-09-12
 - Use prune exec rm form
 - Add explicit websocket dependency
 
-
 Version 3.3.2 - 2017-08-20
+
 - Fix BytesToTransfer amount on Gather op
 - Fix syntax
 - Implement checkForUpdate feature
 
-
 Version 3.3.1 - 2017-08-18
+
 - Add logging
 - Add bitcoin
 
-
 Version 3.3.0 - 2017-08-14
+
 - Add required package
 - Fix handler invocation
 - Implement react-router v4
@@ -309,29 +312,29 @@ Version 3.3.0 - 2017-08-14
 - Allow verbosity setting to control perms issues logging
 - Prepare for 3.3.0
 
-
 Version 3.2.0 - 2017-07-07
+
 - Complete VALIDATE op implementation
 - Don’t duplicate warning message
 
-
 Version 3.1.2 - 2017-07-06
+
 - Add folder deletion safeguard
 
-
 Version 3.1.1 - 2017-07-01
+
 - Adjust for changes in dry-run
 
-
 Version 3.1.0 - 2017-06-30
+
 - Migrate to the update app structure
 - Fix timing issue
 - Improve logging
 - Fix conf location
 - Add log verbosity setting
 
-
 Version 3.0.0 - 2017-06-28
+
 - Prevent spurious rsync lines in logs
 - Upgrade actor related packages
 - Remove deprecated package
@@ -359,8 +362,8 @@ Version 3.0.0 - 2017-06-28
 - Update docs
 - Update docs
 
-
 Version 2.1.0 - 2017-02-03
+
 - Implement real time rsync move progress
 - Modify shell output scanning
 - Install lint packages
@@ -371,13 +374,13 @@ Version 2.1.0 - 2017-02-03
 - Fix wording
 - Remove api calls no longer required
 
-
 Version 2.0.1 - 2017-01-13
+
 - Modify instructions based on new UX
 - Modify README based on new UX (fixes)
 
-
 Version 2.0.0 - 2017-01-13
+
 - Accept special characters in changelog text
 - Add react-tree-menu
 - Initial tree-view implementation
@@ -404,53 +407,53 @@ Version 2.0.0 - 2017-01-13
 - Remove folders in settings logic
 - Optimizations
 
-
 Version 1.8.9 - 2016-12-22
+
 - Fix release
 
-
 Version 1.8.8 - 2016-12-22
+
 - Print a warning when readdir fails
 
-
 Version 1.8.7 - 2016-12-11
+
 - Fix empty plg file
 
-
 Version 1.8.6 - 2016-12-11
+
 - Account for setuid, setgid and/or sticky bit
 
-
 Version 1.8.5 - 2016-12-09
+
 - Fix notifyMove setting
 - Fix logic that checks for file permissions
 
-
 Version 1.8.4 - 2016-12-01
+
 - Make sure IP is non-empty
 
-
 Version 1.8.3 - 2016-11-25
+
 - Keep separate config files
 - Use unbalance.conf if available
 
-
 Version 1.8.2 - 2016-11-24
+
 - Rename references to unbalance.cfg
 - Perform a better string comparison
 - Uppercase port flag
 - Add missing flags
 
-
 Version 1.8.1 - 2016-11-24
+
 - Fix rel-push-unbalance script
 - Create correct config file (unbalance.conf)
 - Fix UI not opening from settings page
 - Check for config file presence
 - Wording changes
 
-
 Version 1.8.0 - 2016-11-11
+
 - Add messages when permission issues arise Related to #11
 - Fix syntax style Related to #11
 - Restrict when to send the perm issues message If bytestomove == 0, no action will take place anyway, so there's no point in sending the perm issue msg Also check that we actually have issues Related to #11
@@ -498,7 +501,6 @@ Version 1.8.0 - 2016-11-11
 - Fixes to bump-hook script
 - Fix CI script
 
-
 Version 1.7.1 - 2016-07-09
     back: Decode rsync errors
     We now translate rsync error exit status into their corresponding textual meaning
@@ -507,11 +509,9 @@ Version 1.7.1 - 2016-07-09
     Related to #11
     app: Bump version
 
-
 Version 1.7.0 - 2016-06-09
     app: Update README to reflect latest changes
     app: Bump version
-
 
 Version 1.6.0 - 2016-06-09
     front: Set updated default rsync flags
@@ -521,12 +521,10 @@ Version 1.6.0 - 2016-06-09
     app: Test for default flags
     app: Bump version
 
-
 Version 1.5.3 - 2016-06-08
     back: Fix working directory argument position
     back: Double check anyway, set the working dir only if specified in the argument
     app: Bump version
-
 
 Version 1.5.2 - 2016-06-08
     back: Allow api endpoint folder (location where var.ini, disks.ini, etc reside) to be specified as settings. This helps with testing.
@@ -537,11 +535,9 @@ Version 1.5.2 - 2016-06-08
     app: Add tests for the latest changes
     app: Bump Version
 
-
 Version 1.5.1 - 2016-05-26
     back: Add trailing slash to destination in rsync cmd
     app: Bump version
-
 
 Version 1.5.0 - 2016-05-21
     app: Implement custom rsync flags functionality
@@ -549,30 +545,26 @@ Version 1.5.0 - 2016-05-21
     app: Handle better edge case where source share is empty or does not exist
     - Bump version
 
-
 Version 1.4.0 - 2016-03-03
     - Restore diskmv to the original script, but we shouldn't be using it anymore (keep the nofuser version)
     - Add ShellEx function, that accepts separate command and arguments. This gives me direct access to the output of the given command.
     - Move from diskmv to straight rsync
     Release 1.4.0
 
-
 Version 1.3.7 - 2016-03-03
     - Show only the main cache disk
     Release 1.3.7
 
-
 Version 1.3.6 - 2016-03-02
     - Upgrade mlog (with lowered maxSize logs)
     - Remove fuser calls since it's generating cannot stat warning that ultimately affect operations. This also removes the size, empty and symlinkclauses. The main reason for these changes is that unbalance should be run as the only data modifying app on the unraid server when it's moving files. Any other scenario, will certainly have unpredictable results. I will eventually discuss with trinapicot/Freddie
-    - Add license as per https://github.com/trinapicot/unraid-diskmv/blob/master/LICENSE
+    - Add license as per <https://github.com/trinapicot/unraid-diskmv/blob/master/LICENSE>
     - Redirect stderr to a logging function providing by the calling party
     - Add support for cache pools, both in client and server code.
     - Add some logging and error display
     - Perform stat on found file only (remove stat for main folder)
     - Add column to display the filesystem of the disk
     Release 1.3.6
-
 
 Version 1.3.5 - 2016-02-27
     back: Remove unavailable field
@@ -582,24 +574,20 @@ Version 1.3.5 - 2016-02-27
     back: Add additional check when processing du bs "folder"
     Release 1.3.5
 
-
 Version 1.3.4 - 2016-02-18
     front: Show progress stats as received from the server
     back: Test progress stats functionality
     back: Calculate progress stats when moving files. Granularity is at the folder level, so stats jump in big chunks.
     Release 1.3.4
 
-
 Version 1.3.3 - 2016-02-18
     front: Fix syntax (checking array length)
     Release 1.3.3
-
 
 Version 1.3.2 - 2016-02-18
     front: Fix syntax error
     back: Send progress message when a new folder is found
     Release 1.3.2
-
 
 Version 1.3.1 - 2016-02-17
     back: Change opInProgress to opState, so we know what operation is in progress (0=idle, 1=calc, 2=move)
@@ -607,7 +595,6 @@ Version 1.3.1 - 2016-02-17
     front: Set ui according to data retrieved from the server
     front: Use ip address rather than hostname, to prevent issue with connecting to the server
     Release 1.3.1
-
 
 Version 1.3.0 - 2016-01-17
     (front) Add ui and logic for setResevedAmount/setReservedUnit
@@ -631,19 +618,16 @@ Version 1.3.0 - 2016-01-17
     (unbalance) Add use cases and icon credit
     Release 1.3.0
 
-
 Version 1.2.15 - 2016-01-12
     - Update dependencies
     - Fixes for dev env
     Release 1.2.15
-
 
 Version 1.2.14 - 2016-01-09
     (unbalance) Update instructions to run the app
     (unbalance) Fix visual layout of instructions
     (unbalance) Add newlines
     Release 1.2.14
-
 
 Version 1.2.13 - 2016-01-09
     (unbalance) Remove page that is no longer needed
@@ -656,7 +640,6 @@ Version 1.2.13 - 2016-01-09
     (plugin) Fix app path
     Release 1.2.13
 
-
 Version 1.2.12 - 2016-01-09
     - Add settings page and menu page
     - Implement new logic for starting/stopping the app
@@ -666,7 +649,6 @@ Version 1.2.12 - 2016-01-09
     - Update build logic
     Release 1.2.12
 
-
 Version 1.2.11 - 2016-01-08
     (unbalance) Ignore archive folder
     (front) Add new dependencies and setup webpack
@@ -674,41 +656,33 @@ Version 1.2.11 - 2016-01-08
     (front) Rewrite front end to use latest reactorx version
     Release 1.2.11
 
-
 Version 1.2.10 - 2016-01-04
     (back) Don't send notifications if the user said so
     (unbalance) Kill unbalance process when installing/updating
     (unbalance) Update version
 
-
 Version 1.2.9 - 2016-01-04
     (unbalance) Fix version (from prev commit)
     (unbalance) Update version
 
-
 Version 1.2.8 - 2016-01-04
     (unbalance) Fix instruction to run unbalance
-
 
 Version 1.2.7 - 2016-01-04
     (back) Fix diskmv path and invocation
     (unbalance) Update version
 
-
 Version 1.2.6 - 2016-01-04
     (back) Remove dead code
     (unbalance) Update version
-
 
 Version 1.2.5 - 2016-01-04
     (unbalance) Add build steps to the bundler script, both client and server
     (unbalance) Update version
 
-
 Version 1.2.4 - 2016-01-04
     (unbalance) Update version
     (unbalance) Update version
-
 
 Version 1.2.3 - 2016-01-04
     (unbalance) Fix copy (closes #8)
@@ -716,12 +690,10 @@ Version 1.2.3 - 2016-01-04
     (unbalance) Apply correct case to unbalance app name
     (unbalance) Update version
 
-
 Version 1.2.2 - 2016-01-04
     (unbalance) Fix plugin url, update version and rename app (lowercase it)
     (unbalance) Update version
     (unbalance) Fix copy
-
 
 Version 1.2.1 - 2016-01-04
     (unbalance) Fix cp instruction
@@ -729,7 +701,6 @@ Version 1.2.1 - 2016-01-04
     (unbalance) Fix md5 substitution string
     (unbalance) Prepare for public version
     (unbalance) Update version
-
 
 Version 1.2.0 - 2016-01-04
     (unbalance) Update README
@@ -760,7 +731,6 @@ Version 1.2.0 - 2016-01-04
     (back) Remove artificial delay during calculate operation
     (unbalance) Upgrade package.json version
 
-
 Version 1.1.0 - 2016-01-02
     (front) Add missing api parameter
     (front) Reset each disk when a calcuation has begun
@@ -790,7 +760,6 @@ Version 1.1.0 - 2016-01-02
     (front) Display a warning box instead of the settings, when an operation is running
     (back) Allow move operation to be parallelized
     (unbalance) Define a new opError message/action that raises an alert on the ui whenever it's received
-
 
 Version 1.0.0 - 2015-12-31
     -Remove staging and art folders
@@ -858,7 +827,7 @@ Version 1.0.0 - 2015-12-31
     (front) Switch to calling api.getconfig on boot and starting the app once the promise has been resolved. react-routers onEnter is a PITA to work with
     (front) Improve websocket handling in frontend code
     (front) Configure addFolder as a class method, rather than being embedded in the main function
-    (front) Reroute to settings from home if no config is found. An alternative look into this issue can be found at https://wmyers.github.io/technical/react-flux/Async-authentication-with-React-Router-1.0.0-beta2/
+    (front) Reroute to settings from home if no config is found. An alternative look into this issue can be found at <https://wmyers.github.io/technical/react-flux/Async-authentication-with-React-Router-1.0.0-beta2/>
     (front) Some ui improvements
     (back) Set up invocation of calculate (and move) operations
     (unbalance) Add target for deployment to makefile
@@ -926,11 +895,9 @@ Version 1.0.0 - 2015-12-31
     (unbalance) Ignore .out files
     (unbalance) Remove folder that is no longer needed
 
-
 Version 0.7.4 - 2015-08-18
     -Remove staging and art folders
     - Add support for unRAID 6.1 by mounting "/usr/local/sbin", since 6.1 changed the location of some binaries to this folder
-
 
 Version 0.7.3 - 2015-06-02
     -Remove staging and art folders
@@ -939,23 +906,20 @@ Version 0.7.3 - 2015-06-02
     - Add test cases for new feature
     - Copy latest diskmv to src folder
 
-
 Version 0.7.2 - 2015-05-31
     -Remove staging and art folders
     - Upgrade Dockerfile to v0.7.1
     - Remove logrotate script, to prevent triggering email notifications (since logrotate fails on the container for some reason)
 
-
 Version 0.7.1 - 2015-05-26
     -Remove staging and art folders
     - Update screenshot
-
 
 Version 0.7.0 - 2015-05-26
     -Remove staging and art folders
     - Include number of unraid disks in logging
     - Fix logging bug (was referring to srcDisk instead of disk)
-    - Fix regexp that scans the output of du -bs <folder>, to enable folders sizes of single digit
+    - Fix regexp that scans the output of `du -bs <folder>`, to enable folders sizes of single digit
     - Adjust logging
     - Modify diskmv script to allow files in the root user share
     - Add credit (pubsub)
@@ -971,7 +935,6 @@ Version 0.7.0 - 2015-05-26
     - Update diskmv script
     - Update dev install script to reflect new version
 
-
 Version 0.6.8 - 2015-05-17
     -Remove staging and art folders
     - Add screenshot to README.md
@@ -979,11 +942,9 @@ Version 0.6.8 - 2015-05-17
     - Add/Improve logging
     - Increase ReservedSpace to 450Mb and declare it as a constant
 
-
 Version 0.6.7 - 2015-05-14
     -Remove staging and art folders
     - Fix test Dockerfile
-
 
 Version 0.6.6 - 2015-05-14
     -Remove staging and art folders
@@ -991,11 +952,9 @@ Version 0.6.6 - 2015-05-14
     - Fix calculate and move buttons disabled behaviour
     - Fix settings init function, by ensuring that the sane and current values are being used (and also saved to the config file)
 
-
 Version 0.6.5 - 2015-05-14
     -Remove staging and art folders
     - Fix name of save button in notifications settings
-
 
 Version 0.6.4 - 2015-05-14
     -Remove staging and art folders
@@ -1008,11 +967,9 @@ Version 0.6.4 - 2015-05-14
     - Add logging for better debugging
     - Improve logging to better debug calculateBestFit function
 
-
 Version 0.6.3 - 2015-05-09
     -Remove staging and art folders
     - Fix breadcrumb to unRAID notification settings
-
 
 Version 0.6.2 - 2015-05-09
     -Remove staging and art folders
@@ -1021,11 +978,9 @@ Version 0.6.2 - 2015-05-09
     - Fix README.md copy
     - Add credits in README.md
 
-
 Version 0.6.1 - 2015-05-07
     -Remove staging and art folders
     - Fix instructions in README.md to be independent of current version
-
 
 Version 0.6.0 - 2015-05-07
     -Remove staging and art folders
@@ -1037,11 +992,9 @@ Version 0.6.0 - 2015-05-07
     - Add ReconnectingWebSocket to the client
     - Remove FontAwesome
 
-
 Version 0.5.1 - 2015-05-03
     -Remove staging and art folders
     - Fix Readme instructions and some typos.
-
 
 Version 0.5.0 - 2015-05-03
     -Remove staging and art folders
@@ -1053,17 +1006,14 @@ Version 0.5.0 - 2015-05-03
     - Add an environment variable to indicate that the app is running under a docker environment, and take action accordingly
     - Increase size of websocket buffers
 
-
 Version 0.4.1 - 2015-05-02
     -Remove staging and art folders
     - Use environment variable to specify logfile path, but allow it to be overriden by the respective flag
     - Change usage wording
 
-
 Version 0.4.0 - 2015-05-02
     -Remove staging and art folders
     - Add command line flags support, to specify config file and log file locations
-
 
 Version 0.3.1 - 2015-05-02
     -Remove staging and art folders
@@ -1077,14 +1027,12 @@ Version 0.3.1 - 2015-05-02
     - Add runsequence to perform cleanup before all other tasks
     - Fix first public version in README.md
 
-
 Version 0.3.0 - 2015-05-02
     -Remove staging and art folders
     - Handle the fact that the array may not be started
     - Use the correct field to determine whether the array is started or not
     - Fix syntax issue in markup
     - Count all commits (instead of counting since the last tag)
-
 
 Version 0.2.0 - 2015-05-01
     -Remove staging and art folders
@@ -1095,11 +1043,9 @@ Version 0.2.0 - 2015-05-01
     - Refresh dashboard when the move operation has completed (via websocket)
     - Prevent duplication of entries when refreshing the dashboard
 
-
 Version 0.1.1 - 2015-05-01
     -Remove staging and art folders
     - Add version string to binary
-
 
 Version 0.1.0 - 2015-05-01
     initial commit
