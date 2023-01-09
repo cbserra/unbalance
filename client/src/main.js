@@ -24,6 +24,7 @@ import Transfer from './components/transfer'
 import History from './components/history'
 import Settings from './components/settings'
 import Log from './components/log'
+import ThemeButton from './components/themeButton'
 
 const history = createBrowserHistory()
 
@@ -76,6 +77,7 @@ class Layout extends PureComponent {
 		}
 
 		return (
+			<React.Fragment>
 			<Router history={store.state.history}>
 				<App store={store}>
 					<Route exact path="/" render={props => <Scatter store={store} {...props} />} />
@@ -86,6 +88,8 @@ class Layout extends PureComponent {
 					<Route exact path="/log" render={props => <Log store={store} {...props} />} />
 				</App>
 			</Router>
+			<ThemeButton />
+			</React.Fragment>
 		)
 	}
 }
